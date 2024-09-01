@@ -328,6 +328,114 @@ body {
     background: rgb(51, 51, 78);
 }
 
+/*footer*/
+
+footer{
+    background: rgba(0, 0, 0, 0.500);
+    padding: 50px;
+}
+
+.conta{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.footercontent{
+    width: 33.3%;
+}
+
+footer h3 {
+    font-size: 28px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.footercontent p{
+    width: 190px;
+    margin: auto;
+    padding: 7px;
+}
+
+.footercontent ul{
+    text-align: center;
+}
+
+.list{
+    padding: 0;
+}
+
+.list li{
+    width: auto;
+    text-align: center;
+    list-style-type: none;
+    padding: 7px;
+    position: relative;
+}
+
+.list li::before{
+    content: '';
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 100%;
+    width: 0;
+    height: 2px;
+    background: rgba(0, 0, 0, 0.500);
+    transition-duration: .5s;
+}
+
+.list li:hover::before{
+    width: 70px;
+}
+
+.social-icons{
+    text-align: center;
+    padding: 0;
+}
+
+.social-icons li{
+    display: block;
+    text-align: center;
+    padding: 5px;
+}
+
+.social-icons i{
+    color: #ffffff;
+    font-size: 25px;
+}
+
+.social-icons a{
+    text-decoration: none;
+}
+
+.social-icons a:hover{
+    background: rgba(0, 0, 0, 0.100);
+    border-radius: 2px;
+}
+
+.social-icons i:hover{
+    background: rgba(0, 0, 0, 0.100);
+    border-radius: 2px;
+}
+
+.bottom{
+    background: black;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 50px;
+    width: 100%;
+    border-radius: 15px;
+}
+
+.bottom p{
+    color: aliceblue;
+    margin: 0;
+    font-size: 16px;
+    padding: 7px;
+}
+
 /*hamburger*/
 .hamburger{
     position: absolute;
@@ -339,7 +447,7 @@ body {
     backdrop-filter: 15px;
     border-radius: 10px;
     overflow: hidden;
-    display: block;
+    display: none;
     text-decoration: none;
 }
 
@@ -501,6 +609,40 @@ body {
         justify-content: center;
         margin-top: 215px;
     }
+    #kontak1{
+        display: none;
+    }
+    #sosial1{
+        display: none;
+    }
+    #kontak2{
+        text-align: center;
+        justify-content: center;
+        width: 18rem;
+        padding-left: 0;
+        margin-left: 0;
+    }
+    #kontak2 .emel{
+        margin-left: -0rem;
+    }
+    #sosial2{
+        text-align: center;
+        justify-content: center;
+        width: 18rem;
+    }
+    .conta{
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+}
+@media(min-width:500px){
+    #kontak2{
+        display: none;
+    }
+    #sosial2{
+        display: none;
+    }
 }
 @media(max-width:401px){
     .gallery{
@@ -550,5 +692,13 @@ body {
 @media(max-width:350px){
     .hamburger{
         right: 1px;
+    }
+}
+@media(max-width:900px){
+    #ling{
+        display: none;
+    }
+    .conta{
+        justify-content: space-between;
     }
 }
