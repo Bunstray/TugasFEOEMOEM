@@ -357,6 +357,10 @@ body {
         display: none;
     }
 
+    .home{
+        height: 55rem;
+    }
+
     .gallery{
         height: 35rem;
     }
