@@ -322,7 +322,7 @@ body {
     backdrop-filter: 15px;
     border-radius: 10px;
     overflow: hidden;
-    display: none;
+    display: block;
     text-decoration: none;
 }
 
@@ -429,5 +429,103 @@ body {
     .homecontent .butbox{
         width: 100%;
         justify-content: center;
+    }
+}
+@media(max-width:370px){
+    .butbox{
+        display: none;
+    }
+    .butbox a{
+        display: none;
+    }
+}
+@media(max-width:500px){
+    .header{
+        padding: 20px 50px;
+    }
+    
+    .gallery{
+        height: 30rem;
+    }
+
+    .slider {
+        width: 20rem;
+        height: 200px;
+        border-radius: 10px;
+        overflow: hidden;
+    }
+    
+    .slides {
+        height: 200px;
+        display: flex;
+    }
+    
+    .slides .slide .first img{
+        width: 20rem;
+        height: 200px;
+    }
+    
+    .slides .slide img{
+        width: 20rem;
+        height: 200px;
+    }
+    .navigation {
+        position: absolute;
+        width: 20rem;
+        margin-top: 15px;
+        display: flex;
+        justify-content: center;
+    }
+    .anavigation {
+        position: absolute;
+        display: flex;
+        width: 20rem;
+        justify-content: center;
+        margin-top: 215px;
+    }
+}
+@media(max-width:401px){
+    .gallery{
+        height: 25rem;
+    }
+
+    .gallerycontent h1 {
+        padding-top: 0px;
+    }
+
+    .slider {
+        width: 15rem;
+        height: 150px;
+        border-radius: 10px;
+        overflow: hidden;
+    }
+    
+    .slides {
+        height: 150px;
+        display: flex;
+    }
+    
+    .slides .slide .first img{
+        width: 15rem;
+        height: 150px;
+    }
+    
+    .slides .slide img{
+        width: 15rem;
+        height: 150px;
+    }
+    .navigation {
+        position: absolute;
+        width: 15rem;
+        margin-top: 15px;
+        display: flex;
+        justify-content: center;
+    }
+    .anavigation {
+        position: absolute;
+        display: flex;
+        width: 15rem;
+        justify-content: center;
+        margin-top: 165px;
     }
 }
