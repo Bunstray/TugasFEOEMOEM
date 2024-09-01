@@ -9,8 +9,7 @@
 
 body {
     min-height: 100vh;
-    background: rgb(152, 152, 255);
-    background-size: cover;
+    background: url('d.png');
     background-position: center;
 }
 
@@ -62,8 +61,7 @@ body {
 }
 /*Home*/
 .home {
-    height: 50rem;
-    max-height: 65rem;
+    height: auto;
     display: flex;
     align-items: center;
     padding: 100px 10%;
@@ -165,8 +163,7 @@ body {
 /*About*/
 
 .about {
-    height: 55rem;
-    max-height: 65rem;
+    height: auto;
     display: flex;
     justify-content: center;
     padding: 100px 10%;
