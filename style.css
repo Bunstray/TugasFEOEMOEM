@@ -419,6 +419,7 @@ body {
     }
     .homecontent h1{
         text-align: center;
+        padding-top: 0px;
     }
     .homecontent h3{
         text-align: center;
@@ -527,5 +528,10 @@ body {
         width: 15rem;
         justify-content: center;
         margin-top: 165px;
+    }
+}
+@media(max-width:350px){
+    .hamburger{
+        right: 1px;
     }
 }
