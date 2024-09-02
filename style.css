@@ -333,9 +333,28 @@ body {
 footer{
     background: rgba(0, 0, 0, 0.500);
     padding: 50px;
+    overflow: hidden;
 }
 
 .conta{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    color: black;
+    text-decoration: none;
+}
+
+.conta2{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    color: black;
+    text-decoration: none;
+}
+
+.conta3{
     width: 100%;
     margin: auto;
     display: flex;
@@ -632,6 +651,8 @@ footer h3 {
         width: 18rem;
         padding-left: 0;
         margin-left: 0;
+        margin-left: auto;
+        margin-right: auto;
     }
     #kontak2 .emel{
         margin-left: -0rem;
@@ -640,6 +661,8 @@ footer h3 {
         text-align: center;
         justify-content: center;
         width: 18rem;
+        margin-left: auto;
+        margin-right: auto;
     }
     .conta{
         justify-content: center;
