@@ -366,6 +366,7 @@ footer{
 .footercontent{
     width: 33.3%;
     text-decoration: none;
+    color: black;
 }
 
 footer h3 {
@@ -385,6 +386,10 @@ footer h3 {
 .footercontent ul{
     text-align: center;
     text-decoration: none;
+}
+
+.footercontent ul li{
+    color: black;
 }
 
 .list{
@@ -655,7 +660,7 @@ footer h3 {
         margin-right: auto;
     }
     #kontak2 .emel{
-        margin-left: -0rem;
+        margin-left: 0.5rem;
     }
     #sosial2{
         text-align: center;
